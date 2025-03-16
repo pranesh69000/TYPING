@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, #0008f8, #3a8d37, #e2df08, #de1010);
+    background-size: 400% 400%;
+    animation: gradientBG 5s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Gradient Animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    width: 50%;
+    padding: 20px;
+    background: linear-gradient(145deg, #e2df08, #de1010 #0008f8, #3a8d37);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #0e0c0c;
+}
+
+#sentence {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#inputBox {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid #0e38ab;
+    border-radius: 5px;
+}
+
+#restartBtn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #37bb12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#restartBtn:hover {
+    background: #ff5252;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ed0d0d;
+}
