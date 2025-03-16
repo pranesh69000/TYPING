@@ -11,7 +11,7 @@ Ever wondered how fast your fingers really are? 🏎️💨 Well, this project t
 
 🔧 How to Use?
 Clone the repo:
-git clone https://github.com/yourusername/typing-speed-tracker.git
+git clone (https://github.com/pranesh69000/TYPING)
 Open index.html in your browser. 🌐
 Start typing and watch your WPM go Vrrrrroooommmm! 🏎️💨
 Brag about your typing speed! 🏆
